@@ -1,0 +1,49 @@
+* {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+        }
+
+        body {
+            backface-visibility: #eee;
+        }
+
+        .wrapper {
+            width: 100%;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        /*************/
+
+        nav {
+            background: #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0px;
+            align-content: center;
+            height: 100px;
+        }
+
+        nav a {
+            text-decoration: none;
+            text-align: center;
+            color: #fff;
+            display: block;
+            padding: 40px;
+        }
+
+        nav a:hover {
+            background: #555;
+        }
+        /*************/
+
+        @media screen and (min-width: 760px) {
+
+            nav ul {
+                display: flex;
+            }
+            nav li {
+                flex: 1 1 0;
+            }
+        }
